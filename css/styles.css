@@ -4,6 +4,35 @@ body {
     background-color: #FFFFFF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width:
+        padding-left:;
+    padding-right: margin: left 156px;
+    margin-right:
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -21,6 +50,11 @@ body {
 .list {
     list-style-type: none;
 }
+
+button {
+    cursor: pointer;
+}
+
 .studio {
     color: #2e2f42;
 }
@@ -62,6 +96,12 @@ body {
     color: #404bbf;
 }
 
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* One section */
 .one-section {
     background-color: #2e2f42;
 }
@@ -135,7 +175,7 @@ body {
 
 .link {
     color: #4d5ae5;
-    
+
 }
 
 .footer-text {
