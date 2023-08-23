@@ -26,22 +26,6 @@ img {
     display: block;
 }
 
-.container {
-    max-width:
-        padding-left:;
-    padding-right: margin: left 156px;
-    margin-right:
-}
-
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
 
 .linked {
     text-decoration: none;
@@ -57,6 +41,24 @@ button {
 
 .studio {
     color: #2e2f42;
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Header */
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .page-nav .link {
@@ -96,10 +98,23 @@ button {
     color: #404bbf;
 }
 
-.section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+.page-header {
+    border-bottom: 1px solid #E7E9FC;
 }
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 1158px;
+    margin: 0 auto;
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
+
 
 /* One section */
 .one-section {
