@@ -241,6 +241,32 @@ button {
     text-align: center;
 }
 
+/* Four section */
+.four-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.four {
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+
+.portfolio {
+    width: calc((100% - 48px) / 3);
+}
+
+.services {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.services-list {
+    margin-bottom: 8px;
+}
+
+
 /* footer */
 .web {
     background-color: #2e2f42;
