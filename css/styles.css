@@ -138,12 +138,15 @@ button {
 .address-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /* One section HERO*/
 .one-section {
     background-color: #2e2f42;
     padding: 188px 0;
+
 }
 
 
