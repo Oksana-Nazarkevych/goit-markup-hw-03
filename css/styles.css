@@ -170,6 +170,10 @@ button {
     background-color: #404BBF;
 }
 
+.button {
+    display: block;
+}
+
 
 /* two section */
 .two-section {
