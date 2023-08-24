@@ -115,6 +115,19 @@ button {
     align-items: center;
 }
 
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-list {
+    padding: 24px 0;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
+}
 
 /* One section */
 .one-section {
