@@ -119,10 +119,12 @@ button {
 .menu {
     gap: 40px;
     display: flex;
+    padding: 24px 0;
+    margin-right: 40px;
 }
 
-.menu-list {
-    padding: 24px 0;
+.contacts {
+    margin-right: 0;
 }
 
 .address-list {
