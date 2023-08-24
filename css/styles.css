@@ -115,6 +115,7 @@ button {
     padding-left: 15px;
     width: 1158px;
     margin: 0 auto;
+    display: flex;
 }
 
 .page-navigation {
@@ -135,11 +136,13 @@ button {
     gap: 40px;
 }
 
-/* One section */
+/* One section HERO*/
 .one-section {
     background-color: #2e2f42;
     padding: 188px 0;
 }
+
+
 
 .one-section .one-section-h {
     font-size: 56px;
@@ -168,10 +171,6 @@ button {
 .one-section .tab:hover,
 .one-section .tab:focus {
     background-color: #404BBF;
-}
-
-.button {
-    display: block;
 }
 
 
