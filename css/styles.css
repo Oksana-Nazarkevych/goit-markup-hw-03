@@ -252,6 +252,7 @@ button {
     row-gap: 48px;
 }
 
+.list .four,
 .portfolio {
     width: calc((100% - 48px) / 3);
 }
