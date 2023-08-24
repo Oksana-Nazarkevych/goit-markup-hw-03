@@ -170,6 +170,7 @@ button {
     height: 56px;
     border: none;
     border-radius: 4px;
+    display: block;
 }
 
 .one-section .tab:hover,
