@@ -33,6 +33,8 @@ img {
 
 .list {
     list-style-type: none;
+    display: flex;
+    gap: 24px;
 }
 
 button {
@@ -200,11 +202,6 @@ button {
     overflow: hidden;
 }
 
-.two {
-    display: flex;
-    gap: 24px;
-}
-
 .paragraph {
     width: calc((100% - 72px) / 4);
 }
@@ -212,6 +209,7 @@ button {
 /* three section */
 .three-section {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team {
@@ -221,10 +219,26 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .photo {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.name {
+    padding: 32px 0;
+}
+
+.surname {
+    text-align: center;
+    margin-bottom: 8px
+}
+
+.post {
+    text-align: center;
 }
 
 /* footer */
