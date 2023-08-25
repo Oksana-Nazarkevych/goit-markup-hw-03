@@ -73,6 +73,9 @@ button {
     margin-right: 76px;
     display: flex;
     align-items: center;
+}
+
+.title {
     padding-right: 24px;
     padding-left: 24px;
 }
