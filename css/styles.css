@@ -116,8 +116,7 @@ button {
 
 .page-header {
     border-bottom: 1px solid #E7E9FC;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 
@@ -313,6 +312,8 @@ button {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    width: 100%;
+    max-width: 264px;
 }
 
 .foot {
